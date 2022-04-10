@@ -1,6 +1,4 @@
-import sys
-import os
-import pwd
+import sys, os, pwd
 from pptx import Presentation
 from PyQt6.QtWidgets import *
 
@@ -24,7 +22,7 @@ class filedialog(QWidget):
         self.card = QLineEdit(self)
         self.card.move(20, 20)
         self.card.resize(180, 20)
-        # Create items
+        # Create a button in the window
 
         self.le = QLabel("")
         self.le1 = QLabel("")
